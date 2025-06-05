@@ -10,6 +10,7 @@ jobs:
     - name: check python version
       run: python --version
     - run: date
+    - run: pip install boto3
 
 
 
