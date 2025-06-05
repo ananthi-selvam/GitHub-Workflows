@@ -6,7 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: print hello world
-      run: echo "Hello World"
+      run: |
+       - echo 'Hello world'
+       - ls -lrt
+       - lscpu
+      
     
 
 
