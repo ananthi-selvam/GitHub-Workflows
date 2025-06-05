@@ -6,12 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: print hello world
-      run: |
-       - echo 'Hello world'
-       - ls -lrt
-       - lscpu
-      
-    
+      run: echo 'hello world'
+    - name: check python version
+      run: python --version
+    - run: date
 
 
 
